@@ -1,66 +1,72 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+## Summary
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+This final project report represents engineered and implemented building materials sales and
+exchange information system. The purpose of this project is to allow its users to create
+building material listings that other users would see and would be inclined to trade or buy, thus this
+way making purchase and exchange processes understandable and effective.
 
-## About Laravel
+After analyzing the subject area, it was concluded that there is no specialized building materials sales
+and exchange information system in Lithuania’s market. The processes of the current building
+materials sales and exchange community are convoluted and not practical. Thus, it was made clear
+that this project is relevant.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+After analyzing current technologies, it was concluded that this project will be implemented using
+open-source PHP web development framework Laravel and relational database management system
+MySQL.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+During the system requirement specification period functional and non-functional requirements were
+specified. In this stage the following diagrams were created: use case, class entity, logical architecture,
+robustness, and project level sequence. Provided graphical user interface prototype, system class
+models with descriptions and logical database system scheme were presented.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+After system prototype realization there was functional testing during which the project was
+thoroughly tested, and it was concluded that created solution meets the specified requirements.
 
-## Learning Laravel
+Later this project was defended at Kaunas University of Technology for bachelor's degree and rated highly.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## Features
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### Guest is capable of:
 
-## Laravel Sponsors
+- **Registering**
+- **Viewing all listed material listings**
+- **Viewing the details of specific listing**
+- **Searching for specific listings**
+- **Filter listings**
+- **Getting help from IS staff**
+- **Checking of about us page**
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
-### Premium Partners
+### System user is capable of:
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[CMS Max](https://www.cmsmax.com/)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-- **[Romega Software](https://romegasoftware.com)**
+ - **Loging in to the system**
+ - **Sending password recovery request**
+ - **Creating, editing, viewing, deleting construction material postings**
+ - **Buying, trading construction materials with other users**
+ - **Searching specific material listings**
+ - **Filtering materials by material category or subcategory**
+ - **Doing transactions**
+ - **Ordering transportation services for every order user did**
+ - **Trading (send request, accept, refuse, change status, order transportation service)**
+ - **Create, edit, view profiles**
+ - **Leave comments under listings, engage in conversation**
+ - **Get help from IS management staff**
+ - Etc.
 
-## Contributing
+### Administrator is capable of:
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+ - **Viewing, blocking, unblocking users**
+ - **Accepting, refusing listings**
+ - **Creation of new material categories, subcategories (deleting, updating and viewing these categories.)
+ - **Deletion of listings**
+ - **Deletion of comments**
+ - **View dashboard how IS is doing at the moment**
+ - **And all mentioned user functionality**
 
-## Code of Conduct
+### Transportation company is capable of:
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+- **Viewing order dashboard**
+- **View, accept, reject transportation orders for sale listings**
+- **View, accept, reject transportation orders for trade listings**
+- **Download generated invoices with order and user information that is required to complete orders**
+- **Get in touch with administration**
