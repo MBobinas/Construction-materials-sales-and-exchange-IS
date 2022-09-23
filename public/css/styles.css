@@ -1,0 +1,169 @@
+html,
+body{
+    height: 100%;
+    font-size: 1rem;
+}
+
+.gradient{
+    background: rgb(104,16,126);
+background: linear-gradient(90deg,
+ rgba(104,16,126,1) 13%,
+ rgba(163,45,147,1) 29%,
+ rgba(179,64,160,1) 43%,
+ rgba(175,45,128,1) 58%,
+ rgba(170,21,76,1) 68%);
+}
+
+.page-header {
+    margin-top: 10rem;
+    font-size: 1.25rem;
+    color:#FFF;
+}
+
+.feature ul{
+    padding-left: 2rem;
+    list-style-type: none;
+}
+
+.feature ul li{
+    padding-left: 2rem;
+    background-image: url('../images/icons/icon-tick-box.svg');
+    background-repeat: no-repeat;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+    
+}
+
+#features{
+    padding-top: 15rem;
+}
+
+.icon {
+    color:#FFF;
+    height: 5rem;
+    width: 5rem;
+    font-size: 1.75rem;
+    border-radius: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery {
+    background-color: whitesmoke;
+
+}
+
+.gallery img{
+    border-radius: 5%;   
+}
+
+.footer {
+    color:#FFF;
+    font-size:1rem;
+    margin: 0;
+    padding: 1rem;
+}
+
+a {
+    color:#FFF;
+    text-decoration: none;
+}
+
+body {
+    background: #eee
+}
+
+.ratings i {
+    font-size: 16px;
+    color: red
+}
+
+.strike-text {
+    color: red;
+    text-decoration: line-through
+}
+
+.product-image {
+    width: 100%
+}
+
+.dot {
+    height: 7px;
+    width: 7px;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-top: 3px;
+    background-color: blue;
+    border-radius: 50%;
+    display: inline-block
+}
+
+.spec-1 {
+    color: #938787;
+    font-size: 15px
+}
+
+h5 {
+    font-weight: 400
+}
+
+.para {
+    font-size: 16px
+}
+
+.accordion {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 3px;
+  }
+  
+  .accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    width: 100%;
+    background: #1C1C1C;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #fff;
+    color: #f3f3f3;
+    cursor: pointer;
+  }
+  
+  .accordion-header.active {
+    background-color: #C5446F;
+  }
+  .accordion-header.active i {
+    transform: rotate(180deg);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .accordion-body {
+    padding: 0 1rem;
+    background-color: #272729;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .accordion-body.active {
+    max-height: 10rem;
+    padding: 1rem;
+  }
+
+  .listings{
+    padding-top: 12rem;
+  }
+
+  .filter{
+    padding-top: 12rem;
+  }
+
+
+
+
+  
